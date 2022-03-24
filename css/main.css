@@ -1,3 +1,17 @@
-body {
-    background-color: yellow;
-}
+/* base */
+@import "./base/reset.css";
+@import "./base/variables.css";
+@import "./base/layout.css";
+@import "./base/base.css";
+
+/* 3rd-party */
+
+
+/* components */
+@import "./components/button.css";
+@import "./components/footer.css";
+@import "./components/header.css";
+
+
+
+/* CUSTOM PAGE STYLE BELOW THIS LINE */
