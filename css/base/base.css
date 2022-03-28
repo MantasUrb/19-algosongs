@@ -1,0 +1,21 @@
+img {
+    display: inline-block;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.bg-light {
+    background-color: var(--light-color);
+}
+.bg-white {
+    background-color: var(--white-color);
+}
+.bg-black {
+    background-color: var(--black-color);
+}
+.bg-charcoal {
+    background-color: var(--charcoal-color);
+}
+.bg-main {
+    background-color: var(--main-color);
+}
