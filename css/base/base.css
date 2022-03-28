@@ -12,10 +12,18 @@ img {
 }
 .bg-black {
     background-color: var(--black-color);
+    color: var(--white-color);
 }
 .bg-charcoal {
     background-color: var(--charcoal-color);
+    color: var(--white-color);
 }
 .bg-main {
     background-color: var(--main-color);
+}
+.bottom-border {
+    border-bottom: 1px solid var(--light-color);
+}
+ul {
+    list-style-position: inside;
 }
