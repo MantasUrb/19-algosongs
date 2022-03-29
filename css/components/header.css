@@ -4,6 +4,7 @@ header {
 }
 header.container {
     padding: 0 10px;
+    border-bottom: 1px solid var(--charcoal-color); /*SHADOW OR SMTH NEEDED*/
 }
 header.container > .row > .col-12 {
     display: flex;
@@ -22,6 +23,7 @@ header nav {
 header nav > a {
     text-decoration: inherit;
     color: inherit;
+    text-transform: capitalize;
 }
 header .hamburger {
     line-height: 25px;
