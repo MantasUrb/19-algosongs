@@ -8,6 +8,14 @@ import { nav } from './components/nav/nav.js'
 
 // <!-- HEADER START -->
 nav('header nav')
+
+const hamburgerDOM = document.querySelector('.hamburger');
+const navDOM = document.querySelector('header nav');
+
+hamburgerDOM.addEventListener('click', () => {
+    navDOM.classList.toggle('hidden');
+})
+
 // <!-- HEADER END -->
 
 

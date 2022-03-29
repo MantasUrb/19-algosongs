@@ -19,7 +19,7 @@ function nav (selector) {
     }
 
     const bodyChilderDOM = document.querySelectorAll('body > *');
-    const ctaButton = `<a class="button" href='https://calendly.com/' targer='_blank'>Contact</a>`
+    const ctaButton = `<a class="button" href='https://calendly.com/' targer='_blank'>contact</a>`
 
     for (const sectionDOM of bodyChilderDOM) {
         if (sectionDOM.id) {
