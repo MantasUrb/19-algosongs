@@ -1,18 +1,13 @@
 // import JS modules
 
 import { nav } from './components/nav/nav.js'
+import { hamburger } from './components/hamburger.js'
 
 // execute JS modules
 
 // <!-- HEADER START -->
-nav('header nav')
-
-const hamburgerDOM = document.querySelector('.hamburger');
-const navDOM = document.querySelector('header nav');
-
-hamburgerDOM.addEventListener('click', () => {
-    navDOM.classList.toggle('hidden');
-})
+nav('header nav');
+hamburger();
 // <!-- HEADER END -->
 
 

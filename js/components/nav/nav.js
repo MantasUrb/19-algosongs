@@ -23,7 +23,7 @@ function nav (selector) {
 
     for (const sectionDOM of bodyChilderDOM) {
         if (sectionDOM.id) {
-            let HTML = `<a href="#${sectionDOM.id}">${formatTitle(sectionDOM.id)}</a>`;
+            let HTML = `<a class="header-link" href="#${sectionDOM.id}">${formatTitle(sectionDOM.id)}</a>`;
             DOM.insertAdjacentHTML('beforeend', HTML);
         } 
     }   
