@@ -6,6 +6,7 @@
 
 /* 3rd-party */
 @import "./3rd-party/font-awesome.min.css";
+@import "./3rd-party/font-openSans.css";
 
 
 /* components */
@@ -13,8 +14,6 @@
 @import "./components/footer.css";
 @import "./components/hamburger.css";
 @import "./components/header.css";
-
-
 
 
 /* CUSTOM PAGE STYLE BELOW THIS LINE */
