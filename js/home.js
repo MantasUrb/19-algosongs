@@ -2,8 +2,6 @@
 
 import { nav } from './components/nav/nav.js'
 
-
-
 // execute JS modules
 
 // <!-- HEADER START -->
@@ -15,7 +13,6 @@ const navDOM = document.querySelector('header nav');
 hamburgerDOM.addEventListener('click', () => {
     navDOM.classList.toggle('hidden');
 })
-
 // <!-- HEADER END -->
 
 
