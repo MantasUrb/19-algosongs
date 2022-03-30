@@ -40,4 +40,5 @@ p {
     word-break: keep-all;
     line-height: 150%;
     padding: 20px 0;
+    letter-spacing: 0.8px;
 }

@@ -25,7 +25,6 @@ header nav {
     right: 0;
     transform: translateY(calc(100% - 1px));
     border-bottom: 1px solid var(--light-color);
-    background-color: var(--charcoal-color);
     padding: 15px 25px;
     height: 100vh;
     align-items: center;
