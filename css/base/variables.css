@@ -4,4 +4,17 @@
     --charcoal-color: #354A54;
     --white-color: #FFFFFF;
     --black-color: #121212;
+
+    --ff-body: "Heebo", sans-serif;
+    --ff-heading: "Oswald", sans-serif;
+
+    --fs-xl: 70px;
+    --fs-600: 50px;
+    --fs-500: 35px;
+    --fs-400: 20px;
+    --fs-300: 18px;
+
+    --fw-heavy: 800;
+    --fw-medium: 600;
+    --fw-light: 300;
 }

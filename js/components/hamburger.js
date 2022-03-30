@@ -4,7 +4,6 @@ function hamburger () {
     const navDOM = document.querySelector('header nav');
 
     hamburgerDOM.addEventListener('click', () => {
-        console.log("CLICKED");
         navDOM.classList.toggle('hidden');
     })
 
