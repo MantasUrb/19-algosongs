@@ -2,40 +2,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 55px;
-    border-radius: 35px;
-
-    color: var(--main-color);
-    
-    border: 2px solid var(--main-color);
-    padding: 15px 25px;
-    font-size: var(--fs-300);
-    font-family: var(--ff-openSans);
-    cursor: pointer;
-    transition: 0.8s;
     position: relative;
-    overflow: hidden;
-    background: none;
-}
-.btn:hover {
+
+    width: 170px;
+    height: 45px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-family: var(--ff-openSans);
+    font-size: var(--fs-300);
     color: var(--white-color);
+    background-color: var(--main-color);
 }
+
 .btn::before {
-    content: "";
+    content: '';
     position: absolute;
+    top: 0;
     left: 0;
-    width: 100%;
-    height: 0%;
-    background: var(--white-color);
-    z-index: -1;
-    transition: 0.8s;
-    
-}
-.btn1::before {
+    right: 0;
     bottom: 0;
-    border-radius: 0 0 50% 50%;
+    z-index: -1;
+    border: var(--border-size) solid var(--main-color);
+    transition: top, left, right, bottom, 100ms ease-in-out;
 }
-.btn1:hover::before {
-    height: 100%;
+
+.btn:hover::before,
+.btn:focus::before { 
+    z-index: 0;
+    top: calc(var(--border-size) * -2);
+    left: calc(var(--border-size) * -2);
+    right: calc(var(--border-size) * -2);
+    bottom: calc(var(--border-size) * -2);
 }

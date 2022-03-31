@@ -13,8 +13,11 @@
     --fs-500: 40px;
     --fs-400: 20px;
     --fs-300: 18px;
+    --fs-200: 15px;
 
     --fw-heavy: 800;
     --fw-medium: 500;
     --fw-light: 300;
+
+    --border-size: 3px;
 }

@@ -15,21 +15,26 @@ header .logo {
 header nav {
     display: flex;
     flex-direction: column;
-    gap: 35px;
-    line-height: 25px;
-    font-size: 16px;
-    text-decoration: none;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    transform: translateY(calc(100% - 1px));
-    border-bottom: 1px solid var(--light-color);
-    padding: 15px 25px;
     height: 100vh;
+    padding: 15px 25px;
     align-items: center;
+
+    background-color: var(--charcoal-color);
+
+    
+    gap: 50px;
+    line-height: 25px;
+    text-decoration: none;
+    transform: translateY(calc(100% - 1px));
 }
 header nav > a {
+    font-family: var(--ff-openSans);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-heavy);
     text-decoration: inherit;
     color: inherit;
     text-transform: capitalize;
