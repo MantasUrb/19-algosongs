@@ -21,16 +21,13 @@ img {
 .bg-main {
     background-color: var(--main-color);
 }
-.bottom-border {
-    border-bottom: 1px solid var(--light-color);
-}
 ul {
     list-style-position: inside;
 }
 h1, h2 {
     font-family: var(--ff-openSans);
     font-size: var(--fs-500);
-    font-weight: var(--fw-heavy);
+    font-weight: var(--fw-Lheavy);
     word-break: keep-all;
 }
 p {
@@ -39,6 +36,6 @@ p {
     font-family: var(--ff-openSans);
     word-break: keep-all;
     line-height: 170%;
-    padding: 20px 0;
+    padding: 30px 0;
     letter-spacing: 0.8px;
 }

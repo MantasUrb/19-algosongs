@@ -28,7 +28,7 @@
     --ml10: calc(var(--ml9) + var(--cg));
     --ml11: calc(var(--ml10) + var(--cg));
   
-    --container-padding: 40px;
+    --container-padding: 15px;
   }
   
   .container,
