@@ -1,39 +1,36 @@
-.btn {
+button {
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
     align-items: center;
     position: relative;
 
-    width: 170px;
+    margin: ;
+
+    width: 190px;
     height: 45px;
     padding: 15px 25px;
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 5px;
 
     font-family: var(--ff-openSans);
     font-size: var(--fs-300);
     color: var(--white-color);
     background-color: var(--main-color);
-}
 
-.btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    border: var(--border-size) solid var(--main-color);
-    transition: top, left, right, bottom, 100ms ease-in-out;
+    box-shadow: inset 0 0 0 0 var(--black-color);
+    transition: 200ms ease-in-out;
 }
+button:hover {
+    box-shadow: inset 200px 0 0 0 var(--black-color);
+    cursor: pointer;
 
-.btn:hover::before,
-.btn:focus::before { 
-    z-index: 0;
-    top: calc(var(--border-size) * -2);
-    left: calc(var(--border-size) * -2);
-    right: calc(var(--border-size) * -2);
-    bottom: calc(var(--border-size) * -2);
+}
+i {
+    transition: all 250ms ease-in-out;
+}
+.iconMoves {
+    transform: rotate(90deg);
 }

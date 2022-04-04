@@ -8,16 +8,21 @@
     --ff-openSans: 'openSans', sans-serif;
     --ff-openSansItalic: 'openSansItalic', sans-serif;
 
-    --fs-xl: 70px;
+    --fs-900: 80px;
+    --fs-800: 70px;
+    --fs-700: 60px;
     --fs-600: 50px;
     --fs-500: 40px;
     --fs-400: 20px;
     --fs-300: 18px;
-    --fs-200: 15px;
+    --fs-200: 16px;
+    --fs-100: 14px;
 
     --fw-heavy: 800;
-    --fw-medium: 500;
+    --fw-Lheavy: 600;
+    --fw-medium: 400;
     --fw-light: 300;
+    --fw-Vlight: 200;
 
     --border-size: 3px;
 }

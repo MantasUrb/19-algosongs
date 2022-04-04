@@ -38,7 +38,7 @@ p {
     font-size: var(--fs-300);
     font-family: var(--ff-openSans);
     word-break: keep-all;
-    line-height: 150%;
+    line-height: 170%;
     padding: 20px 0;
     letter-spacing: 0.8px;
 }
