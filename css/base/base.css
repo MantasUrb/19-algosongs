@@ -4,6 +4,15 @@ img {
     object-fit: contain;
     object-position: center;
 }
+.bg-charcoal-transp {
+    background-color: var(--charcoal-bg-transp);
+    color: var(--white-color);
+}
+.bg-light-header {
+    background-color: var(--charcoal-color);
+    /* clip-path: ellipse(81% 88% at 50% 10%); */
+    color: var(--white-color);
+}
 .bg-light {
     background-color: var(--light-color);
 }
@@ -35,7 +44,7 @@ p {
     font-size: var(--fs-300);
     font-family: var(--ff-openSans);
     word-break: keep-all;
-    line-height: 170%;
+    line-height: 1.6;
     padding: 30px 0;
     letter-spacing: 0.8px;
 }

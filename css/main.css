@@ -11,6 +11,7 @@
 
 /* components */
 @import "./components/button.css";
+@import "./components/bg-photo.css";
 @import "./components/footer.css";
 @import "./components/hamburger.css";
 @import "./components/header.css";

@@ -11,7 +11,7 @@ header.container > .row > .col-12 {
     justify-content: space-between;
 }
 header .logo {
-    height: 25px;
+    height: 30px;
 }
 header nav {
     display: flex;
@@ -24,10 +24,10 @@ header nav {
     padding: 15px 25px;
     align-items: center;
 
-    background-color: var(--charcoal-color);
+    background-color: inherit;
 
     gap: 50px;
-    line-height: 25px;
+    line-height: 1.6;
     text-decoration: none;
     transform: translateY(calc(100% - 1px));
 }
@@ -40,7 +40,6 @@ header nav > a {
     text-transform: capitalize;
 }
 header .hamburger {
-    line-height: 25px;
     font-size: 25px;
 }
 #music-promo,

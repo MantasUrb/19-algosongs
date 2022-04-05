@@ -4,12 +4,17 @@
     --charcoal-color: #354A54;
     --white-color: #FFFFFF;
     --black-color: #121212;
+    --alter-main: #3564ef;
+    --alter-grey: #AFAFAF;
+    --charcoal-2: #151E23;
+
+    --charcoal-bg-transp: #354a54d2;
 
     --ff-openSans: 'openSans', sans-serif;
     --ff-openSansItalic: 'openSansItalic', sans-serif;
 
     --fs-900: 80px;
-    --fs-800: 70px;
+    --fs-800: 70px; 
     --fs-700: 60px;
     --fs-600: 50px;
     --fs-500: 40px;
