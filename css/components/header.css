@@ -1,0 +1,65 @@
+header {
+    position: sticky;
+    top: 0;
+}
+header.container {
+    padding: 0 10px;
+    z-index: 2;
+}
+header.container > .row > .col-12 {
+    display: flex;
+    justify-content: space-between;
+}
+header .logo {
+    height: 30px;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    padding: 15px 25px;
+    align-items: center;
+
+    background-color: inherit;
+
+    gap: 50px;
+    line-height: 1.6;
+    text-decoration: none;
+    transform: translateY(calc(100% - 1px));
+}
+header nav > a {
+    font-family: var(--ff-openSans);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-Lheavy);
+    text-decoration: inherit;
+    color: inherit;
+    text-transform: capitalize;
+}
+header .hamburger {
+    font-size: 25px;
+}
+#music-promo,
+#nfts,
+#discord,
+#about {
+    scroll-margin-top: 84px;
+}
+@media (min-width: 991px) {
+    header nav {
+        flex-direction: row;
+        padding: 0;
+        transform: translateY(0);
+        position: static;
+        border-bottom: none;
+        height: inherit;
+        gap: 40px;
+    }
+    header nav > a {
+        font-size: var(--fs-200);
+        font-weight: var(--fw-Lheavy);
+    }
+}

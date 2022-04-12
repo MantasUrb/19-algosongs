@@ -1,0 +1,36 @@
+button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+    margin: 0 0 30px 0;
+
+    width: 190px;
+    height: 45px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+
+    font-family: var(--ff-openSans);
+    font-size: var(--fs-300);
+    color: var(--white-color);
+    background-color: var(--main-color);
+
+    box-shadow: inset 0 0 0 0 var(--black-color);
+    transition: 200ms ease-in-out;
+}
+button:hover {
+    box-shadow: inset 200px 0 0 0 var(--white-color);
+    cursor: pointer;
+    color: var(--black-color);
+}
+i {
+    transition: all 250ms ease-in-out;
+}
+.iconMoves {
+    transform: rotate(90deg);
+}
