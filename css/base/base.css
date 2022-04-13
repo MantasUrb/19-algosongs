@@ -30,9 +30,6 @@ img {
 .bg-main {
     background-color: var(--main-color);
 }
-/* .bg-blob {
-    background: url(../../img/heroBlob.svg)
-} */
 ul {
     list-style-position: inside;
 }

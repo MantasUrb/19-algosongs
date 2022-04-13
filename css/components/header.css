@@ -23,13 +23,11 @@ header nav {
     height: 100vh;
     padding: 15px 25px;
     align-items: center;
-
-    background-color: inherit;
-
     gap: 50px;
     line-height: 1.6;
     text-decoration: none;
     transform: translateY(calc(100% - 1px));
+    background-color: var(--black-color);
 }
 header nav > a {
     font-family: var(--ff-openSans);
@@ -38,16 +36,13 @@ header nav > a {
     text-decoration: inherit;
     color: var(--white-color);
     text-transform: capitalize;
-
     /* overflow: hidden; */
     background: linear-gradient(to right, var(--main-color), var(--main-color) 50%, var(--white-color) 50%);
-
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200% 100%;
     background-position: 100%;
-
     transition: background-position 250ms ease;
 }
 header nav > a:hover {
