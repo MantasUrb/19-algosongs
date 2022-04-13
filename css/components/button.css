@@ -13,7 +13,7 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 10px;
 
     font-family: var(--ff-openSans);
     font-size: var(--fs-300);
@@ -29,7 +29,7 @@ button:hover {
     color: var(--black-color);
 }
 i {
-    transition: all 250ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 .iconMoves {
     transform: rotate(90deg);

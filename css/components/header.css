@@ -36,8 +36,22 @@ header nav > a {
     font-size: var(--fs-400);
     font-weight: var(--fw-Lheavy);
     text-decoration: inherit;
-    color: inherit;
+    color: var(--white-color);
     text-transform: capitalize;
+
+    /* overflow: hidden; */
+    background: linear-gradient(to right, var(--main-color), var(--main-color) 50%, var(--white-color) 50%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+
+    transition: background-position 250ms ease;
+}
+header nav > a:hover {
+    background-position: 0 100%;
 }
 header .hamburger {
     font-size: 25px;
@@ -60,6 +74,6 @@ header .hamburger {
     }
     header nav > a {
         font-size: var(--fs-200);
-        font-weight: var(--fw-Lheavy);
+        font-weight: var(--fw-heavy);
     }
 }
