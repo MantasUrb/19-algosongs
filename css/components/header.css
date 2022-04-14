@@ -37,7 +37,7 @@ header nav > a {
     color: var(--white-color);
     text-transform: capitalize;
     
-    /* overflow: hidden; */
+    overflow: hidden;
     background: linear-gradient(to right, var(--main-color), var(--main-color) 50%, var(--white-color) 50%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -76,7 +76,7 @@ header .hamburger {
         padding: 0;
         transform: translateY(0);
         position: static;
-        /* border: none; */
+        border: none;
         height: inherit;
         gap: 40px;
     }
@@ -88,5 +88,4 @@ header .hamburger {
     .header-link::after {
         display: none;
     }
-
 }
