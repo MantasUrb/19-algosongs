@@ -30,3 +30,10 @@ section img {
     left: 0;
     top: -149px;
 }
+.music-promo-logos {
+    filter: invert(100%) sepia(30%) saturate(3607%) hue-rotate(285deg) brightness(129%) contrast(112%);
+}
+.youtube,
+.tiktok {
+    margin: 10px 0 0 0;
+}

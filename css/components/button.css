@@ -13,7 +13,7 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 25px;
 
     font-family: var(--ff-openSans);
     font-size: var(--fs-300);

@@ -32,7 +32,7 @@
         border-radius: 45% 60% 50% 45% / 65% 60% 50% 45%;;
     }
 }
-@media (max-width: 991px) {
+@media (max-width: 1250px) {
     .heroBlob {
         height: 100%;
         width: 100%;
