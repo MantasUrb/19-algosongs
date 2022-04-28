@@ -1,0 +1,34 @@
+#music-promo i {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+#music-promo > :nth-child(2) {
+    filter: invert(100%) sepia(30%) saturate(3607%) hue-rotate(285deg) brightness(129%) contrast(112%);
+}
+#music-promo > :nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#music-promo > :nth-child(4) div {
+    display: inherit;
+    align-items: center;
+}
+#music-promo > :nth-child(3) {
+    margin-bottom: 0px;
+}
+#music-promo > :nth-child(4) p {
+    padding: 5px 0; 
+}
+#music-promo > :nth-child(5) div:first-of-type {
+    margin: 30px 0 0 0;
+}
+#music-promo > :nth-child(5) {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.youtube,
+.tiktok {
+    margin: 7px 0 0 0;
+}

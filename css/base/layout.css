@@ -448,7 +448,7 @@
   @media (min-width: 1199px) {
     :root {
       --half-gap: 20px;
-      --container-padding: 85px;
+      --container-padding: 70px;
     }
     .container > .row {
       width: 1140px;
