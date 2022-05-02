@@ -1,10 +1,3 @@
-.heroImg {
-    position: relative;
-}
-.heroSvg {
-    position: inherit;
-    z-index: 1;
-}
 .heroBlob {
     position: absolute;
     top: 50%;
