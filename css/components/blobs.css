@@ -11,6 +11,19 @@
 
     animation: blobMoves 8s linear infinite;
 }
+.musicPromoBlob {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 120%;
+    width: 150%;
+
+    background-color: var(--main-color);
+
+    animation: blobMoves 8s linear infinite;
+}
 @keyframes blobMoves {
     0%, 100% {
         border-radius: 55% 60% 60% 40% / 50% 55% 50% 50%;
