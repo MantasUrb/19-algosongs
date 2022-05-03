@@ -1,9 +1,6 @@
 section {
     position: relative;
 }
-section img {
-    margin: 15px 0 80px 0;
-}
 .split-l-to-r::before {
     content: '';
     box-sizing: border-box;
