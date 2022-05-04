@@ -4,8 +4,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 120%;
-    width: 120%;
+    height: 100%;
+    width: 100%;
 
     background-color: var(--main-color);
 
@@ -17,8 +17,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 120%;
-    width: 150%;
+    width: 100%;
+    height: 100%;
 
     background-color: var(--main-color);
 
@@ -38,9 +38,19 @@
         border-radius: 45% 60% 50% 45% / 65% 60% 50% 45%;;
     }
 }
-@media (max-width: 1250px) {
+@media (min-width: 767px) {
     .heroBlob {
+        height: 105%;
+        width: 110%;
+    }
+    .musicPromoBlob {
         height: 100%;
         width: 100%;
     }
 }
+/* @media (min-width: 991px) {
+    .heroBlob {
+        height: 120%;
+        width: 150%;
+    }
+} */
