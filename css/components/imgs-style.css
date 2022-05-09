@@ -13,6 +13,10 @@
     width: 75%;
 }
 .howExecuteSvg {
+    display: none;
+}
+.howExecuteSvg,
+.howExecuteSvgVertical {
     filter: invert(100%) sepia(30%) saturate(3607%) hue-rotate(285deg) brightness(129%) contrast(112%);;
 }
 @media (min-width: 450px) {
@@ -23,6 +27,12 @@
 @media (min-width: 575px) {
     .whyGamingSvg {
         margin: 50px 0 35px 45px;
+    }
+    .howExecuteSvgVertical {
+        display: none;
+    }
+    .howExecuteSvg {
+        display: inherit;
     }
 }
 @media (min-width: 767px) {

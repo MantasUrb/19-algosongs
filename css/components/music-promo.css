@@ -35,26 +35,29 @@
 #music-promo > :nth-child(5) > div > h3 {
     margin: 0 0 10px 0;
 }
-
-/* --------------- FROM THIS PART FORWARD CHECK ELEMENT STYLES! ---------------*/
-
 #music-promo > :nth-last-child(2) div:first-of-type {
     margin: 40px 0 20px 0;
 }
 #music-promo > :nth-last-child(2) div:last-of-type {
-    margin: 60px 0px 0px 20px
+    justify-content: center; 
+    margin-top: 30px;
 }
 #music-promo > :nth-last-child(1) div {
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
 }
-
-/* --------------- UP UNTILL HERE --------------- */
-
+@media (min-width: 575px) {
+    #music-promo > :nth-last-child(2) div:last-of-type {
+        margin-top: 40px;
+    }
+}
 @media (min-width: 767px) {
     #music-promo > :nth-child(4) p {
         line-height: 1.5;
         padding: 10px 0; 
+    }
+    #music-promo > :nth-last-child(2) div:last-of-type {
+        margin-top: 50px;
     }
 }
 @media (min-width: 991px) {
@@ -77,6 +80,9 @@
     #music-promo > :nth-child(5) div:first-of-type {
         margin: 20px 0 0 0;
     }
+    #music-promo > :nth-last-child(2) div:last-of-type {
+        margin-top: 60px;
+    }
 }
 @media (min-width: 1199px) {
     #music-promo > :nth-child(5) {
@@ -84,5 +90,8 @@
     }
     #music-promo > :nth-child(5) div:first-of-type {
         margin: 60px 0 0 0;
+    }
+    #music-promo > :nth-last-child(2) div:last-of-type {
+        margin-top: 70px;
     }
 }
