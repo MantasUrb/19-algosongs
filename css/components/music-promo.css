@@ -30,7 +30,7 @@
     font-size: var(--fs-250);
 }
 #music-promo > :nth-child(5) > div:last-child {
-    margin: 55px 0 0 0;
+    margin-top: 55px;
 }
 #music-promo > :nth-child(5) > div > h3 {
     margin: 0 0 10px 0;
@@ -71,7 +71,7 @@
         font-size: var(--fs-300);
     }
     #music-promo > :nth-child(5) > div:last-child {
-        margin: 0 0 0 0;
+        margin-top: 0;
     }
     #music-promo > :nth-child(5) {
         margin-top: 50px;
