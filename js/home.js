@@ -2,7 +2,6 @@
 
 import { nav } from './components/nav/nav.js'
 import { hamburger } from './components/hamburger.js'
-import { iconRotates } from './components/button.js'
 
 // execute JS modules
 
@@ -13,7 +12,6 @@ hamburger();
 
 
 // <!-- HERO -->
-iconRotates();
 // <!-- HERO -->
 
 
