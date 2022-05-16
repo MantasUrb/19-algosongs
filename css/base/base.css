@@ -55,6 +55,7 @@ h4 {
     font-family: var(--ff-openSans);
     font-size: var(--fs-400);
     font-weight: var(--fw-Lheavy);
+    word-break: keep-all;
 }
 .text-center {
     text-align: center;
@@ -66,6 +67,12 @@ p {
     word-break: keep-all;
     line-height: 2;
     padding: 10px 0;
+}
+p .highlight {
+    font-family: inherit;
+    color: var(--main-color);
+    font-weight: 700;
+    word-break: inherit;
 }
 li {
     font-weight: var(--fw-medium);
