@@ -10,6 +10,7 @@
 
 
 /* components */
+@import "./components/aboutus.css";
 @import "./components/blobs.css";
 @import "./components/button.css";
 @import "./components/discord.css";
@@ -19,6 +20,7 @@
 @import "./components/hero.css";
 @import "./components/imgs-style.css";
 @import "./components/music-promo.css";
+@import "./components/nfts.css";
 @import "./components/partners.css";
 @import "./components/sections.css";
 

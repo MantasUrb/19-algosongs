@@ -73,6 +73,14 @@ p .highlight {
     color: var(--main-color);
     font-weight: 700;
     word-break: inherit;
+    text-decoration: none;
+}
+p .highlight-dark {
+    font-family: inherit;
+    color: var(--mainDark-color);
+    font-weight: 700;
+    word-break: inherit;
+    text-decoration: none;
 }
 li {
     font-weight: var(--fw-medium);
