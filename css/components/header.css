@@ -29,7 +29,7 @@ header nav {
     line-height: 1.6;
     text-decoration: none;
     background-color: var(--black-color);
-    transition: 500ms ease;
+    transition: 400ms ease;
     opacity: 0;
 }
 .mobile-active {
