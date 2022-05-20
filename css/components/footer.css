@@ -41,7 +41,7 @@ footer li i {
 }
 @media (min-width: 991px) {
     footer :nth-child(1) div:nth-child(2) {
-        margin-left: 50px;
+        margin-left: 45px;
         margin-right: 0px;
     }
     footer :nth-child(1) div:nth-child(3) {

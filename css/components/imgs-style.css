@@ -8,7 +8,8 @@
 .howExecuteSvg,
 .howExecuteSvgVertical,
 .ourGoalSvg,
-.ourGoalVerticalSvg {
+.ourGoalVerticalSvg,
+.howExecuteSvgBetween {
     filter: invert(100%) sepia(30%) saturate(3607%) hue-rotate(285deg) brightness(129%) contrast(112%);
 }
 /* --------------- */
@@ -28,6 +29,9 @@
     width: 75%;
 }
 .howExecuteSvg {
+    display: none;
+}
+.howExecuteSvgBetween {
     display: none;
 }
 /* MUSIC PROMO ENDS */
@@ -64,7 +68,7 @@
     .howExecuteSvgVertical {
         display: none;
     }
-    .howExecuteSvg {
+    .howExecuteSvgBetween {
         display: inherit;
     }
     .aboutUsLaptopSvg {
@@ -75,6 +79,12 @@
 @media (min-width: 767px) {
     .whyGamingSvg {
         margin: 55px 0 45px 27px;
+    }
+    .howExecuteSvgBetween {
+        display: none;
+    }
+    .howExecuteSvg {
+        display: inherit;
     }
     .ourGoalVerticalSvg {
         display: none;
