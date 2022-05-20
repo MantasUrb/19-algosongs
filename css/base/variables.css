@@ -1,5 +1,6 @@
 :root {
     --main-color: #50B3DB;
+    --mainDark-color: #416a7a;
     --light-color: #E4F2FF;
     --charcoal-color: #354A54;
     --white-color: #FFFFFF;
@@ -19,6 +20,7 @@
     --fs-500: 40px;
     --fs-400: 20px;
     --fs-300: 18px;
+    --fs-250: 17px;
     --fs-200: 16px;
     --fs-100: 14px;
 
@@ -27,6 +29,4 @@
     --fw-medium: 400;
     --fw-light: 300;
     --fw-Vlight: 200;
-
-    --border-size: 3px;
 }

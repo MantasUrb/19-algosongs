@@ -7,7 +7,7 @@ button {
 
     margin: 0 0 30px 0;
 
-    width: 190px;
+    /* width: 190px; */
     height: 45px;
     padding: 15px 25px;
     border: none;
@@ -24,13 +24,17 @@ button {
     transition: 200ms ease-in-out;
 }
 button:hover {
-    box-shadow: inset 200px 0 0 0 var(--white-color);
+    box-shadow: inset 250px 0 0 0 var(--white-color);
     cursor: pointer;
     color: var(--black-color);
+    animation: iconMoves;
+}
+button:hover > i {
+    transform: rotate(90deg);
+}
+button > i {
+    padding: 0 10px;
 }
 i {
     transition: all 200ms ease-in-out;
-}
-.iconMoves {
-    transform: rotate(90deg);
 }
