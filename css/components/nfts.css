@@ -21,7 +21,7 @@
 }
 #nfts::after {
     content: '';
-    background-image: url(../../img/nftsbg.jpg);
+    background-image: url(../../img/bg.jpg);
     background-size: cover;
     position: absolute;
     top: 0;
@@ -57,6 +57,12 @@
 }
 #nfts a:hover {
     background-position: 0 100%;
+}
+@media (max-width: 310px) {
+    #nfts > :nth-child(2) > :nth-child(1) > :nth-last-child(1) button {
+        margin: 0;
+        padding: 0;
+    }
 }
 @media (min-width: 575px) {
     #nfts > :nth-child(1) {
