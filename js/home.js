@@ -1,6 +1,6 @@
 // import JS modules
 
-import { nav } from './components/nav/nav.js'
+import { nav } from './components/nav.js'
 import { hamburger } from './components/hamburger.js'
 
 // execute JS modules
