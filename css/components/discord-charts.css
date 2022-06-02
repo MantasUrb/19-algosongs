@@ -1,0 +1,18 @@
+.discord-chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    height: 230px;
+    text-align: center; 
+}
+.discord-chart > .chart > .bar {
+    width: 65px;
+    margin: 10px 0;
+    background-color: var(--black-color);
+    transition: 1000ms ease-in-out;
+}
+.discord-chart > .chart > .year, .value {
+    font-family: var(--ff-openSans);
+    word-break: keep-all;
+}
