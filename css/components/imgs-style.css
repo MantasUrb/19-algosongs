@@ -1,5 +1,6 @@
 /* GROUPED TOGETHER */
 #music-promo > :nth-child(5) > div:last-child,
+#discord > :nth-child(3) > div:nth-child(2),
 #about > :nth-last-child(1) div:nth-child(2) {
     position: relative;
 }
@@ -36,6 +37,12 @@
 /* MUSIC PROMO ENDS */
 
 /* DISCORD STARTS */
+.discordLaptop {
+    position: inherit;
+    z-index: 1;
+    margin: 30px 0px 0px 45px;
+    width: 85%;
+}
 .ourGoalVerticalSvg {
     width: 90%;
 }

@@ -4,7 +4,7 @@ function discordChart (selector, data) {
 
     for (let i = 0; i < data.length; i++) {
         const column = data[i];
-        const pixelNumber = data[i].value * 0.85;
+        const pixelNumber = data[i].value;
 
         HTML += `<div class="chart">
                     <div class="value">${column.value} millions</div>

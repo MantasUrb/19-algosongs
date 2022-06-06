@@ -40,7 +40,8 @@
     margin: 0 0 10px 0;
 }
 #music-promo > :nth-last-child(2) div:first-of-type {
-    margin: 40px 0 20px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 #music-promo > :nth-last-child(2) div:last-of-type {
     justify-content: center; 
