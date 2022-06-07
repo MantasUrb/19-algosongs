@@ -50,7 +50,8 @@
 #music-promo > :nth-last-child(1) div {
     justify-content: center; 
     align-items: center;
-    margin: 20px 0 40px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 @media (min-width: 575px) {
     #music-promo > :nth-last-child(2) div:last-of-type {

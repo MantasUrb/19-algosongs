@@ -14,7 +14,7 @@
 .discord-chart > .chart > .year, .value {
     font-family: var(--ff-openSans);
     word-break: keep-all;
-    font-size: 12px;
+    font-size: 11px;
 }
 .progress > .bar {
     width: 100%;
@@ -56,14 +56,24 @@
         gap: 10px;
     }
     .discord-chart > .chart > .year, .value {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 @media (min-width: 450px) {
     .discord-chart {
-        gap: 10px;
+        gap: 15px;
     }
     .discord-chart > .chart > .year, .value {
         font-size: 16px;
+    }
+}
+@media (min-width: 575px) {
+    .discord-chart {
+        gap: 20px;
+    }
+}
+@media (min-width: 1199px) {
+    .discord-chart {
+        height: 235px;
     }
 }
