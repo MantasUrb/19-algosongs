@@ -1,15 +1,52 @@
-#discord > div:nth-child(2) > div:nth-child(2),
-#discord > div:nth-child(3) > div:nth-child(2) {
+#discord > :nth-child(2) > :nth-child(2),
+#discord > :nth-child(3) > :nth-child(2) {
     margin-top: 30px;
     margin-bottom: 15px;
 }
-#discord > div:nth-child(5) > div:nth-child(1) {
+#discord > :nth-child(4) > :nth-child(1) {
+    margin-top: 25px;
+}
+#discord > :nth-child(4) > :nth-child(1) > :nth-child(2) {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+#discord > :nth-child(5) > :nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#discord > :nth-child(5) > :nth-child(1) > * {
+    filter: invert(100%) sepia(30%) saturate(3607%) hue-rotate(285deg) brightness(129%) contrast(112%);
+    width: 40px;
+}
+.arrow {
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    clip-path: polygon(50% 90%, 100% 0, 100% 1%, 50% 100%, 0 1%, 0 0);
+}
+#discord > :nth-child(5) > :nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#discord > div:nth-child(6) > div:nth-child(1) {
     justify-content: center;
 }
 @media (min-width: 350px) {
     #discord > div:nth-child(3) > div:nth-child(2) {
         margin-top: 45px;
-    }    
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 40px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) > * {
+        width: 50px;
+    }
 }
 @media (min-width: 450px) {
     #discord > div:nth-child(2) > div:nth-child(2) {
@@ -17,11 +54,30 @@
     }
     #discord > div:nth-child(3) > div:nth-child(2) {
         margin-top: 65px;
-    }    
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 70px;
+    }
+    .arrow {
+        height: 75px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+}
+@media (min-width: 575px) {
+    .arrow {
+        height: 75px;
+    }
 }
 @media (min-width: 767px) {
     #discord > div:nth-child(3) > div:nth-child(2) {
         margin-top: 100px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 120px;
+    }
+    .arrow {
+        height: 100px;
+        margin-top: 25px;
     }
 }
 @media (min-width: 991px) {
@@ -30,6 +86,13 @@
     }
     #discord > div:nth-child(3) > div:nth-child(2) {
         margin-top: 55px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 140px;
+    }
+    .arrow {
+        height: 120px;
+        margin-top: 35px;
     }
 }
 @media (min-width: 1199px) {
