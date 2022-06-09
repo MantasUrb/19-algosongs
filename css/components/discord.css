@@ -4,7 +4,7 @@
     margin-bottom: 15px;
 }
 #discord > :nth-child(4) > :nth-child(1) {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 #discord > :nth-child(4) > :nth-child(1) > :nth-child(2) {
     margin-top: 25px;
@@ -65,13 +65,20 @@
     }
 }
 @media (min-width: 575px) {
+    #discord > :nth-child(4) > :nth-child(1) {
+        margin-top: 20px;
+    }
     .arrow {
         height: 75px;
     }
 }
 @media (min-width: 767px) {
+
     #discord > div:nth-child(3) > div:nth-child(2) {
         margin-top: 100px;
+    }
+    #discord > :nth-child(4) > :nth-child(1) {
+        margin-top: 40px;
     }
     #discord > :nth-child(4) > :nth-child(1) > :nth-child(2) {
         margin-bottom: 20px;
