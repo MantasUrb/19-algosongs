@@ -29,6 +29,18 @@
 .chart.animate > .progress > .bar {
     animation: chart 1500ms forwards;
 }
+.discord-chart-legend {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discord-chart-legend > :nth-child(1) {
+    margin: 0 3px 0 0;
+    width: 60px;
+    height: 19px;
+    background-color: var(--black-color);
+}
 @keyframes 
     chart {
         0% {
