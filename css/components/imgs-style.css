@@ -44,10 +44,10 @@
 /* DISCORD ENDS */
 
 /* ABOUT US STARTS */
-.aboutUsLaptopSvg {
+.aboutUs {
     position: inherit;
     z-index: 1;
-    margin: 50px 0px 50px 0px;
+    width: 65%;
 }
 /* ABOUT US ENDS */
 @media (min-width: 350px) {
@@ -59,10 +59,6 @@
 @media (min-width: 450px) {
     .whyGamingSvg {
         margin: 50px 0 35px 35px;
-    }
-    .aboutUsLaptopSvg {
-        margin: 60px 0px 60px 40px;
-        width: 80%;
     }
     .discordLaptop {
         margin: 30px 0px 25px 65px;
@@ -82,10 +78,6 @@
     .discordLaptop {
         width: 75%;
     }
-    .aboutUsLaptopSvg {
-        width: 65%;
-        margin: 50px 0px 50px 85px;
-    }
 }
 @media (min-width: 767px) {
     .whyGamingSvg {
@@ -101,9 +93,8 @@
         width: 70%;
         margin: 50px 0px 45px 95px;
     }
-    .aboutUsLaptopSvg {
-        width: 60%;
-        margin: 70px 0px 70px 130px;
+    .aboutUs {
+        width: 50%;
     }
 }
 @media (min-width: 991px) {
@@ -115,6 +106,9 @@
         width: 80%;
         margin: 45px 0px 35px 40px;
     }
+    .aboutUs {
+        width: 70%;
+    }
 }
 @media (min-width: 1199px) {
     .whyGamingSvg {
@@ -124,7 +118,7 @@
         width: 75%;
         margin: 45px 0px 40px 65px;
     }
-    .aboutUsLaptopSvg {
-        margin: 40px 0px 40px 40px;
+    .aboutUs {
+        width: 65%;
     }
 }

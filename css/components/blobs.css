@@ -1,6 +1,7 @@
 .heroBlob,
 .musicPromoBlob,
-.discordLaptopBlob {
+.discordLaptopBlob,
+.aboutUsBlob {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -12,6 +13,9 @@
     background-color: var(--main-color);
 
     animation: blobMoves 8s linear infinite;
+}
+.aboutUsBlob {
+    height: 125%;
 }
 @keyframes blobMoves {
     0%, 100% {
@@ -47,6 +51,10 @@
         height: 110%;
         width: 110%;
     }
+    .aboutUsBlob {
+        height: 120%;
+        width: 85%;
+    }
 }
 @media (min-width: 991px) {
     .musicPromoBlob {
@@ -57,10 +65,16 @@
         width: 90%;
         height: 140%;
     }
+    .aboutUsBlob {
+        width: 100%;
+    }
 }
 @media (min-width: 1199px) {
     .discordLaptopBlob {
         width: 85%;
         height: 120%;
+    }
+    .aboutUsBlob {
+        width: 95%;
     }
 }
