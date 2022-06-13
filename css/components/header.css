@@ -10,6 +10,7 @@ header.container {
 header.container > .row > .col-12 {
     display: flex;
     justify-content: space-between;
+    position: inherit;
 }
 header .logo {
     height: 30px;
