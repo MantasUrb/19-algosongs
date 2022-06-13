@@ -4,7 +4,7 @@ header {
 }
 header.container {
     padding: 0 10px;
-    z-index: 3;
+    z-index: 4;
     transition: 250ms ease;
 }
 header.container > .row > .col-12 {

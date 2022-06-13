@@ -27,3 +27,23 @@ section {
     left: 0;
     top: -149px;
 }
+.row [class*='col'] {
+    z-index: 3;
+    position: relative;
+}
+#music-promo::after,
+#discord::after,
+#about::after {
+    content: '';
+    background-image: url(../../img/bg.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.1;
+}
+.hero {
+    background: linear-gradient(0deg, rgb(35 35 35) 0%, rgba(18,18,18,1) 70%);
+}
