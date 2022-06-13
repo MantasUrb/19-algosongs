@@ -1,7 +1,9 @@
 // import JS modules
+import { discordChartData } from './data/discordChart.js'
 
 import { nav } from './components/nav.js'
 import { hamburger } from './components/hamburger.js'
+import { discordChart } from './components/discordChart.js';
 
 // execute JS modules
 
@@ -20,13 +22,8 @@ hamburger();
 // <!-- SERVICES MUSIC PROMO SECTION END -->
 
 
-// <!-- SERVICES NFTS SECTION START -->
-
-// <!-- SERVICES NFTS SECTION END -->
-
-
 // <!-- SERVICES DISCORD MANAGEMENT SECTION START -->
-
+discordChart('.discord-chart', discordChartData)
 // <!-- SERVICES DISCORD MANAGEMENT SECTION END -->
 
 

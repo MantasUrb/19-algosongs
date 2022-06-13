@@ -1,76 +1,116 @@
-#discord > :nth-child(2) > :nth-child(1) > * {
-margin: 0 10px;
+#discord > :nth-child(2) > :nth-child(2),
+#discord > :nth-child(3) > :nth-child(2) {
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
-#discord > :nth-child(1) {
-    margin-bottom: 0;
-    z-index: 2;
-    position: inherit;
+#discord > :nth-child(4) > :nth-child(1) {
+    margin-top: 0px;
 }
-#discord > :nth-child(2) {
-    margin-top: 0;
+#discord > :nth-child(4) > :nth-child(1) > :nth-child(2) {
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
-#discord > :nth-child(2) > :nth-child(1) {
-    position: relative;
-    z-index: 2;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    padding: 60px 0;
-    border: 15px solid transparent;
-    border-image: linear-gradient(45deg, var(--main-color) , var(--black-color));
-    border-image-slice: 1;
+#discord > :nth-child(5) > :nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
-#discord::after {
-    content: '';
-    background-image: url(../../img/bg.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    opacity: 0.2;
+#discord > :nth-child(5) > :nth-child(1) > * {
+    filter: invert(100%) sepia(30%) saturate(3607%) hue-rotate(285deg) brightness(129%) contrast(112%);
+    width: 40px;
 }
-#discord > :nth-child(2) > :nth-child(1) h3 {
-    padding: 10px 0 25px 0;
+.arrow {
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    clip-path: polygon(50% 90%, 100% 0, 100% 1%, 50% 100%, 0 1%, 0 0);
 }
-#discord > :nth-child(2) > :nth-child(1) > :nth-last-child(1) button {
-    margin: 0 10px;
-}
-#discord > :nth-child(2) > :nth-child(1) > :nth-last-child(1) {
+#discord > :nth-child(5) > :nth-last-child(1) {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-#discord a {
-    overflow: hidden;
-    background: linear-gradient(to right, var(--white-color), var(--white-color) 50%, var(--main-color) 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 250ms ease;
-    min-width: 120px;
+#discord > div:nth-child(6) > div:nth-child(1) {
+    justify-content: center;
 }
-#discord a:hover {
-    background-position: 0 100%;
+@media (min-width: 350px) {
+    #discord > div:nth-child(3) > div:nth-child(2) {
+        margin-top: 45px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 40px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) > * {
+        width: 50px;
+    }
 }
-@media (max-width: 310px) {
-    #discord > :nth-child(2) > :nth-child(1) > :nth-last-child(1) button {
-        margin: 0;
-        padding: 0;
+@media (min-width: 450px) {
+    #discord > div:nth-child(2) > div:nth-child(2) {
+        margin-top: 50px;
+    }
+    #discord > div:nth-child(3) > div:nth-child(2) {
+        margin-top: 65px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 70px;
+    }
+    .arrow {
+        height: 75px;
+        margin-top: 40px;
+        margin-bottom: 35px;
     }
 }
 @media (min-width: 575px) {
-    #discord > :nth-child(1) {
-        margin-bottom: 30px;
+    #discord > :nth-child(4) > :nth-child(1) {
+        margin-top: 20px;
+    }
+    .arrow {
+        height: 75px;
+    }
+}
+@media (min-width: 767px) {
+
+    #discord > div:nth-child(3) > div:nth-child(2) {
+        margin-top: 100px;
+    }
+    #discord > :nth-child(4) > :nth-child(1) {
+        margin-top: 40px;
+    }
+    #discord > :nth-child(4) > :nth-child(1) > :nth-child(2) {
+        margin-bottom: 20px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 120px;
+    }
+    .arrow {
+        height: 100px;
+        margin-top: 25px;
     }
 }
 @media (min-width: 991px) {
-    #discord > :nth-child(2) > :nth-child(1) > :nth-last-child(1) {
-        flex-direction: row;
+    #discord > div:nth-child(2) > div:nth-child(2) {
+        margin-top: 5px;
+    }
+    #discord > div:nth-child(3) > div:nth-child(2) {
+        margin-top: 55px;
+    }
+    #discord > :nth-child(5) > :nth-child(1) {
+        gap: 140px;
+    }
+    .arrow {
+        height: 120px;
+        margin-top: 35px;
+    }
+}
+@media (min-width: 1199px) {
+    #discord > div:nth-child(2) > div:nth-child(2) {
+        margin-top: 0px;
+    }
+    #discord > div:nth-child(3) > div:nth-child(2) {
+        margin-top: 15px; 
     }
 }
