@@ -1,6 +1,7 @@
 .heroBlob,
 .musicPromoBlob,
-.aboutLaptopBlob {
+.discordLaptopBlob,
+.aboutUsBlob {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -12,6 +13,9 @@
     background-color: var(--main-color);
 
     animation: blobMoves 8s linear infinite;
+}
+.aboutUsBlob {
+    height: 125%;
 }
 @keyframes blobMoves {
     0%, 100% {
@@ -28,13 +32,14 @@
     }
 }
 @media (min-width: 450px) {
-    .aboutLaptopBlob {
-        width: 90%;
+    .discordLaptopBlob {
+        width: 85%;
+        height: 125%;
     }
 }
 @media (min-width: 575px) {
-    .aboutLaptopBlob {
-        width: 80%;
+    .discordLaptopBlob {
+        height: 120%;
     }
 }
 @media (min-width: 767px) {
@@ -46,8 +51,9 @@
         height: 110%;
         width: 110%;
     }
-    .aboutLaptopBlob {
-        width: 70%;
+    .aboutUsBlob {
+        height: 120%;
+        width: 85%;
     }
 }
 @media (min-width: 991px) {
@@ -55,14 +61,20 @@
         height: 105%;
         width: 105%;
     }
-    .aboutLaptopBlob {
+    .discordLaptopBlob {
         width: 90%;
-        height: 150%;
+        height: 140%;
+    }
+    .aboutUsBlob {
+        width: 100%;
     }
 }
 @media (min-width: 1199px) {
-    .aboutLaptopBlob {
+    .discordLaptopBlob {
+        width: 85%;
+        height: 120%;
+    }
+    .aboutUsBlob {
         width: 95%;
-        height: 150%;
     }
 }
