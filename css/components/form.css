@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form > .form-row {
+    display: inherit;
+    flex-direction: column;
+}
+.form > .form-row:last-of-type {
+    flex-direction: row;
+    align-items: center;
+}
+.form > .form-row:last-child > :nth-child(1) {
+    margin: 0;
+}
+.form > .form-row > label {
+    font-family: var(--ff-openSans);
+}
+.form > .form-row > input {
+    background: var(--white-color);
+    border: none;
+    border-bottom: 2px solid #a3a3a3;
+    border-radius: 6px 6px 0 0;
+    padding: 16px;
+}
