@@ -6,6 +6,7 @@
 .form > .form-row {
     display: inherit;
     flex-direction: column;
+    position: relative;
 }
 .form > .form-row:last-of-type {
     flex-direction: row;
@@ -16,11 +17,70 @@
 }
 .form > .form-row > label {
     font-family: var(--ff-openSans);
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    font-size: var(--fs-200);
+    pointer-events: none;
 }
-.form > .form-row > input {
+.form > .form-row > input, textarea {
+    outline: none;
+    font-family: var(--ff-openSans);
+    font-size: var(--fs-200);
     background: var(--white-color);
     border: none;
     border-bottom: 2px solid #a3a3a3;
     border-radius: 6px 6px 0 0;
-    padding: 16px;
+    padding: 25px 10px 10px 10px;
+    height: 60px;
+}
+.form > .form-row > textarea {
+    resize: none;
+    height: 150px;
+}
+.form > .form-row > 
+    input:focus~.bar::before,
+    textarea:focus~.bar::before,
+    input:focus~.bar::after, 
+    textarea:focus~.bar::after
+    {
+        animation: border-in 500ms forwards;
+}
+.form > .form-row > 
+    input:focus~label,
+    textarea:focus~label {
+        animation: smaller-label 500ms forwards;
+}
+.bar::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--main-color);
+    height: 2px;
+}
+.bar::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    background-color: var(--main-color);
+    height: 2px;
+}
+@keyframes border-in {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes smaller-label {
+    0% {
+        font-size: var(--fs-200);
+    }
+    100% {
+        top: 3px;
+        font-size: var(--fs-50);
+    }
 }

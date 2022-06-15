@@ -226,16 +226,19 @@
                 <h3>Contacts Us</h3>
                 <form class="form">
                     <div class="form-row">
-                        <label for="">Your Name</label>
-                        <input type="text">
+                        <input type="text" id="name" maxlength="45">
+                        <span class="bar"></span>
+                        <label class="label" for="">Your Name</label>
                     </div>
                     <div class="form-row">
-                        <label for="">Your Email</label>
-                        <input type="text">
+                        <input type="email" id="email" maxlength="60">
+                        <span class="bar"></span>
+                        <label class="label" for="">Your Email</label>
                     </div>
                     <div class="form-row">
-                        <label for="">Message</label>
-                        <input type="text">
+                        <textarea name="message" id="message" maxlength="1000"></textarea>
+                        <span class="bar"></span>
+                        <label class="label" for="">Message</label>
                     </div>
                     <div class="form-row">
                         <button type="submit">Send</button>
