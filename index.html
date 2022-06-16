@@ -207,8 +207,33 @@
     </section>
     <!-- PARTNERS SECTION END -->
     <!-- FOOTER START -->
-    <footer class="container bg-light">
+    <footer id="contact" class="container bg-light">
         <div class="row">
+            <div class="col-12 col-md-5">
+                <h3>Contacts Us</h3>
+                <form class="form">
+                    <div class="form-row">
+                        <input type="text" id="name" maxlength="45" autocomplete="off" required="required">
+                        <label class="label-name" for="">Your Name</label>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" id="email" maxlength="60" placeholder=" " required="required">
+                        <label class="label-email" for="">Your Email</label>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="form-row">
+                        <textarea name="message" id="message" maxlength="1000" required="required"></textarea>
+                        <label class="label-message" for="">Message</label>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit">Send</button>
+                        <span>or</span>
+                        <a href="#">Book A Call</a>
+                    </div>
+                </form>
+            </div>
             <div class="col-12 col-md-5 ml-md-1">
                 <h3>About the company</h3>
                 <p>Since 2019 we are helping artists gain new fans, reach a wider audience and build communities on various social channels.</p>
@@ -222,30 +247,6 @@
                     <li><i class="fa fa-angle-right"></i><a href="https://calendly.com/laurynas-brovka/discover" target="_blank">Get In Touch</a></li>
                 </ul>
             </div> -->
-            <div class="col-12 col-md-5">
-                <h3>Contacts Us</h3>
-                <form class="form">
-                    <div class="form-row">
-                        <input type="text" id="name" maxlength="45">
-                        <span class="bar"></span>
-                        <label class="label" for="">Your Name</label>
-                    </div>
-                    <div class="form-row">
-                        <input type="email" id="email" maxlength="60">
-                        <span class="bar"></span>
-                        <label class="label" for="">Your Email</label>
-                    </div>
-                    <div class="form-row">
-                        <textarea name="message" id="message" maxlength="1000"></textarea>
-                        <span class="bar"></span>
-                        <label class="label" for="">Message</label>
-                    </div>
-                    <div class="form-row">
-                        <button type="submit">Send</button>
-                        <span>or</span>
-                        <a href="#">Book A Call</a>
-                    </div>
-                </form>
                 <!-- <h3>Contacts Us</h3>
                 <ul>
                     <li><i class="fa fa-globe"></i>Sweden</li>
@@ -253,7 +254,6 @@
                     <li><i class="fa fa-envelope"></i><a href="mailto: laurynas@algosongs.com">laurynas@algosongs.com</a></li>
                     <li></li>
                     </ul> -->
-            </div>
         </div>
     </footer>
     <!-- FOOTER END -->

@@ -22,6 +22,12 @@
     left: 10px;
     font-size: var(--fs-200);
     pointer-events: none;
+
+    /* NOT SURE IF NEEDED */
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
 }
 .form > .form-row > input, textarea {
     outline: none;
@@ -42,15 +48,27 @@
     input:focus~.bar::before,
     textarea:focus~.bar::before,
     input:focus~.bar::after, 
-    textarea:focus~.bar::after
-    {
-        animation: border-in 500ms forwards;
+    textarea:focus~.bar::after {
+        animation: border-in 0.5s ease forwards;
 }
+
+
+
 .form > .form-row > 
     input:focus~label,
-    textarea:focus~label {
-        animation: smaller-label 500ms forwards;
+    textarea:focus~label,
+    input:valid~.label-name,
+    input:not(:placeholder-shown)~.label-email,
+    textarea:valid~.label-message {
+        transform: translateY(-75%);
+        font-size: var(--fs-50)!important;
 }
+
+/* * input:valid~label,
+textarea:valid~label */
+
+
+
 .bar::after {
     content: '';
     position: absolute;
@@ -75,12 +93,11 @@
         width: 50%;
     }
 }
-@keyframes smaller-label {
+/* @keyframes smaller-label {
     0% {
         font-size: var(--fs-200);
     }
     100% {
-        top: 3px;
-        font-size: var(--fs-50);
+
     }
-}
+} */

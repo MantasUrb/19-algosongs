@@ -1,6 +1,7 @@
 // import JS modules
 import { discordChartData } from './data/discordChart.js'
 
+import { form } from './components/form.js'
 import { nav } from './components/nav.js'
 import { hamburger } from './components/hamburger.js'
 import { discordChart } from './components/discordChart.js';
@@ -38,5 +39,5 @@ discordChart('.discord-chart', discordChartData)
 
 
 // <!-- FOOTER START -->
-
+form();
 // <!-- FOOTER END -->
