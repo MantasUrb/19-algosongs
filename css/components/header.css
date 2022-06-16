@@ -70,13 +70,16 @@ header nav > a:hover {
     width: 100%;
     color: white;
 }
+.header-link:nth-last-child(1)::after {
+    display: none;
+}
 header .hamburger {
     font-size: 25px;
 }
 #music-promo,
-#nfts,
 #discord,
-#about {
+#about,
+#contact {
     scroll-margin-top: 84px;
 }
 @media (min-width: 991px) {
