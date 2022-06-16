@@ -1,10 +1,8 @@
 footer .logo {
-    margin: 5px 0;
+    margin: 10px 0;
     height: 40px;
 }
 footer h3 {
-    margin-top: 20px;
-    margin-bottom: 5px;
     font-weight: var(--fw-Vlight);
 }
 footer 
@@ -16,40 +14,32 @@ footer
     align-items: center;
     padding: 5px 0;
 }
-footer ul {
-    list-style-type: none;
-}
-footer ul a {
+footer a {
     text-decoration: none;
     color: inherit;
     font-family: var(--ff-openSans);
     word-break: keep-all;
 }
-footer li i {
-    padding: 0 10px 0 0;
+footer > :nth-child(1) > :nth-child(1) > :nth-child(1) {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+footer > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 @media (min-width: 767px) {
     footer 
         p,
         li {
-            font-size: var(--fs-100);
+            font-size: var(--fs-200);
     }
     footer h3 {
         margin-top: 0;
         margin-bottom: 20px;
     }
-}
-@media (min-width: 991px) {
-    footer :nth-child(1) div:nth-child(2) {
-        margin-left: 45px;
-        margin-right: 0px;
-    }
-    footer :nth-child(1) div:nth-child(3) {
-        margin-left: 0px;
-    }
-}
-@media (min-width: 1199px) {
-    footer :nth-child(1) div:nth-child(3) {
-        margin-left: 60px;
+    footer > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+        margin-top: 20px;
+        margin-bottom: 22px;
     }
 }

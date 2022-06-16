@@ -1,4 +1,4 @@
-section {
+section, footer {
     position: relative;
 }
 .split-l-to-r::before {
@@ -33,7 +33,8 @@ section {
 }
 #music-promo::after,
 #discord::after,
-#about::after {
+#about::after,
+footer::after {
     content: '';
     background-image: url(../../img/bg.jpg);
     background-size: cover;
