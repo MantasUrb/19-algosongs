@@ -9,11 +9,30 @@
     position: relative;
 }
 .form > .form-row:last-of-type {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 .form > .form-row:last-child > :nth-child(1) {
     margin: 0;
+    padding: 15px 30px;
+}
+.form > .form-row:last-of-type > span {
+    font-family: var(--ff-openSans);
+    margin: 7px 10px;
+}
+.form i {
+    margin: 0 0 0 5px;
+    font-size: var(--fs-400);
+}
+.form > .form-row:nth-last-child(1) > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 25px;
+    border: 1px solid var(--black-color);
+    border-radius: 25px;
+}
+.form > .form-row:nth-last-child(1) > a:hover {
+    text-decoration: underline;
 }
 .form > .form-row > label {
     font-family: var(--ff-openSans);
@@ -23,7 +42,6 @@
     font-size: var(--fs-200);
     pointer-events: none;
 
-    /* NOT SURE IF NEEDED */
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
@@ -51,9 +69,6 @@
     textarea:focus~.bar::after {
         animation: border-in 0.5s ease forwards;
 }
-
-
-
 .form > .form-row > 
     input:focus~label,
     textarea:focus~label,
@@ -63,12 +78,6 @@
         transform: translateY(-75%);
         font-size: var(--fs-50)!important;
 }
-
-/* * input:valid~label,
-textarea:valid~label */
-
-
-
 .bar::after {
     content: '';
     position: absolute;
@@ -93,11 +102,19 @@ textarea:valid~label */
         width: 50%;
     }
 }
-/* @keyframes smaller-label {
-    0% {
-        font-size: var(--fs-200);
+@media (min-width: 350px) {
+    .form > .form-row:last-of-type {
+        flex-direction: row;
+        justify-content: center;
     }
-    100% {
-
+}
+@media (min-width: 450px) {
+    .form > .form-row:last-of-type > span {
+        margin: 7px 20px;
     }
-} */
+}
+@media (min-width: 767px) {
+    .form > .form-row:last-of-type > span {
+        margin: 7px 15px;
+    }
+}
