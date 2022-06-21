@@ -1,6 +1,0 @@
-function form () {
-
-
-}
-
-export { form } 
