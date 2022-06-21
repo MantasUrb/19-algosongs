@@ -1,0 +1,34 @@
+:root {
+    --main-color: #50B3DB;
+    --mainDark-color: #416a7a;
+    --light-color: #E4F2FF;
+    --charcoal-color: #354A54;
+    --white-color: #FFFFFF;
+    --black-color: #121212;
+    --mainGrey-color: #B1B1B1;
+    --secondGrey-color: #515151;
+
+    --charcoal-bg-transp: #354a54d2;
+
+    --ff-openSans: 'openSans', sans-serif;
+    --ff-openSansItalic: 'openSansItalic', sans-serif;
+
+    --fs-900: 80px;
+    --fs-800: 70px; 
+    --fs-700: 60px;
+    --fs-600: 50px;
+    --fs-500: 40px;
+    --fs-400: 20px;
+    --fs-300: 18px;
+    --fs-250: 17px;
+    --fs-200: 16px;
+    --fs-100: 14px;
+    --fs-50: 12px;
+    --fs-25: 10px;
+
+    --fw-heavy: 800;
+    --fw-Lheavy: 600;
+    --fw-medium: 400;
+    --fw-light: 300;
+    --fw-Vlight: 200;
+}
