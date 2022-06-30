@@ -22,15 +22,18 @@ app.post('/', (req, res) => {
         service: 'gmail',
         auth: {
             user: 'johnthetestguy@gmail.com',
-            pass: ''
+            pass: 'twlakrdoufyaqdkz'
         }
     })
 
         const mailOptions = {
             from: req.body.email,
             to: 'johnthetestguy@gmail.com',
-            subject: `Message from ${req.body.user}`,
-            text: req.body.message
+            subject: `AlgoSongs new inquiry from ${req.body.email}`,
+            text: `
+            Name: ${req.body.user}
+            Email: ${req.body.email}
+            Message: ${req.body.message}`
         }
 
         transporter.sendMail(mailOptions, (error, info)=>{
@@ -43,7 +46,6 @@ app.post('/', (req, res) => {
             }
         })
 })
-
 
 app.listen(PORT, ()=>{
     console.log(`Server running on port ${PORT}`);
