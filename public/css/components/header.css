@@ -70,6 +70,9 @@ header nav > a:hover {
     width: 100%;
     color: white;
 }
+.header-link:last-child::after {
+    display: none;
+}
 header .hamburger {
     font-size: 25px;
 }
