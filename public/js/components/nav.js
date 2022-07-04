@@ -1,15 +1,11 @@
 function nav (selector) {
 
     const formatTitle = (str) => {
-        if (str === "nfts") {
-            return "NFTs"
-        }
         const parts = str.split('-');
         return parts.join(' ');
     }
 
-    if (typeof selector !== 'string' ||
-        selector === '') {
+    if (typeof selector !== 'string' || selector === '') {
         return false;
     }
 
@@ -19,15 +15,15 @@ function nav (selector) {
     }
 
     const bodyChilderDOM = document.querySelectorAll('body > *');
-    const ctaButton = `<a class="button" href='https://calendly.com/laurynas-brovka/discover' target='_blank'>contact</a>`
+    let HTML = '';
 
     for (const sectionDOM of bodyChilderDOM) {
+
         if (sectionDOM.id) {
-            let HTML = `<a class="header-link" href="#${sectionDOM.id}">${formatTitle(sectionDOM.id)}</a>`;
-            DOM.insertAdjacentHTML('beforeend', HTML);
+            HTML += `<a class="header-link" href="#${sectionDOM.id}">${formatTitle(sectionDOM.id)}</a>`;
         } 
     }   
-    return DOM.insertAdjacentHTML('beforeend', ctaButton);
+    return DOM.innerHTML = HTML;
 }
 
 export { nav }
